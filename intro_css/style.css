@@ -123,3 +123,19 @@ h3 {
 .oos-class {
   background-color: purple;
 }
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: pink;
+}
+a:active {
+  color: greenyellow;
+}
+
+a:link {
+  color: #7b7bdc;
+  font-size: 1em;
+}
