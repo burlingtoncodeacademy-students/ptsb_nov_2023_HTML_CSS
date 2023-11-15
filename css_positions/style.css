@@ -37,9 +37,8 @@
   margin: 1em;
   border: 2px solid black;
   width: 100vw;
-
   /* To test out the 'Sticky' position, comment the height back in, and scroll down */
-  height: 100vh;
+  /* height: 100vh; */
   padding: 5px;
   position: relative;
 }
@@ -66,23 +65,23 @@
   border: 2px solid green;
   background-color: green;
   /* Absolute -- position properties have will work, and will 'sit' within a parent container with "position: relative" */
-  /* position: absolute;
+  /* position: absolute; */
   top: 0;
-  left: 0; */
+  left: 0;
 }
 .child4 {
   border: 2px solid teal;
   background-color: teal;
   /* Fixed -- element will remain in place, outside the flow of the document */
-  /* position: fixed;
-  top: 0px; */
+  /* position: fixed; */
+  top: 0px;
 }
 .child5 {
   border: 2px solid grey;
   background-color: grey;
   /* Sticky -- element will appear as usual, but when scrolling out of view, the element will remain (Ensuring that its container has the room for it. Hint: add a dramatic height (100vh) to the .parent-container and scroll down) */
-  /* position: sticky;
-  top: 0px; */
+  position: sticky;
+  top: 0px;
 }
 /* 
     ? Display Property
@@ -110,10 +109,9 @@
 .inline-block {
   border: 2px solid black;
   /* Will place elements side-by-side, but wont take up the whole width of the page, only the content inside */
-  display: inline-block;
+  /* display: inline-block; */
   margin: 5px;
 }
-
 .float-container {
   margin-top: 2em;
   border: 2px solid blue;
@@ -127,5 +125,5 @@
   width: 50px;
   height: 50px;
   /* Can position the box left or right */
-  float: left;
+  float: right;
 }
