@@ -24,13 +24,13 @@ nav {
   align-items: center;
   /* Testing out height with the swap of justify, and align items. Row vs column */
   height: 5em;
+  width: 100%;
 }
 
 .main-container {
   display: flex;
   margin-top: 3em;
   border: 2px solid black;
-  width: 100vw;
   /* flex-direction: column; */
   /* If we use row we can have a new row appear with flex-wrap, respecting the width and height of it's container */
   flex-wrap: wrap;
@@ -46,6 +46,7 @@ nav {
 .nav-link {
   text-decoration: none;
   color: white;
+  margin-inline: 1em;
 }
 
 .c {
