@@ -23,6 +23,7 @@ nav {
   gap: 1em;
   align-items: center;
   /* Testing out height with the swap of justify, and align items. Row vs column */
+  flex-wrap: wrap;
   height: 5em;
   width: 100%;
 }
