@@ -90,3 +90,31 @@ article > p {
 .desc {
   display: flex;
 }
+
+.desc > * {
+  margin: 0 1rem;
+}
+
+img {
+  border-radius: 20px;
+  max-width: 200px;
+}
+
+#contact {
+  /* Top, right, bottom, left */
+  margin: 0 2rem 10vh 2rem;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 2rem;
+  float: right;
+}
